@@ -33,6 +33,7 @@ px4_add_board(
 		imu/analog_devices/adis16448
 		imu/bosch/bmi088
 		imu/invensense/icm20602
+		imu/invensense/icm20649
 		imu/invensense/icm42688p
 		irlock
 		lights # all available light drivers
@@ -127,12 +128,12 @@ px4_add_board(
 		fake_gyro
 		fake_magnetometer
 		fixedwing_control # Tutorial code from https://px4.io/dev/example_fixedwing_control
-		hello
+		#hello
 		hwtest # Hardware test
 		#matlab_csv_serial
 		px4_mavlink_debug # Tutorial code from http://dev.px4.io/en/debug/debug_values.html
 		px4_simple_app # Tutorial code from http://dev.px4.io/en/apps/hello_sky.html
 		rover_steering_control # Rover example app
 		uuv_example_app
-		work_item
+		#work_item
 	)
